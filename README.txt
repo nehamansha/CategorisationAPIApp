@@ -2,7 +2,7 @@
 
 Using the provided API to set up the company and assign them a bank using instructions
 
-Tech: Java 8 using SpringBoot due to it having an integrated rest testing api.
+Tech: Java 8 using SpringBoot.
 
 https://developer.askfractal.com/apps , endpoints were created to:
 1. Get categorised transactions for a given category
