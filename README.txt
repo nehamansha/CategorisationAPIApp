@@ -10,7 +10,7 @@ https://developer.askfractal.com/apps , endpoints were created to:
 3. Update a category for a given transaction
 
 Postman endpoints
-2) Add new category
+1) Add new category
 POST: https://sandbox.askfractal.com/category
 
 2) Get categorised transactions
@@ -20,8 +20,7 @@ GET: https://sandbox.askfractal.com/categories/transactions?companyId={{companyI
 PUT: https://sandbox.askfractal.com/categories/transactions
 
 The api are tested using RestClientTest & MockRestServiceServer along with with JUnit4 and AssertJ.
-RestClientTest has annotations that helps simplify and speed up the testing of REST clients in Spring applications. It allows use of the Jackson’s ObjectMapper instance
-to prepare the MockRestServiceServer’s mock answer value.
+RestClientTest has annotations that helps simplify and speed up the testing of REST clients in Spring applications. It allows the use of the Jackson’s ObjectMapper instance to prepare the MockRestServiceServer’s mock answer value.
 
 The build tool is maven.
 1) mvn clean test to run test
